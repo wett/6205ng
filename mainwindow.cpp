@@ -1,5 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "logindialog.h"
 
 #include <QDateTime>
 
@@ -25,4 +26,9 @@ void MainWindow::timeUpdate()
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::on_returnButton_clicked()
+{
+
 }

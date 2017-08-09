@@ -24,6 +24,7 @@ private:
 
 private slots:
     void timeUpdate();
+    void on_returnButton_clicked();
 };
 
 #endif // MAINWINDOW_H

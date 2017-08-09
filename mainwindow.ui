@@ -78,7 +78,7 @@
      <cstring>monthDataButton</cstring>
     </property>
    </widget>
-   <widget class="QToolButton" name="currentDataButton">
+   <widget class="QToolButton" name="realtimeDataButton">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -111,7 +111,7 @@ border-style:flat;</string>
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="currentDataLabel">
+   <widget class="QLabel" name="realtimeDataLabel">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -127,7 +127,7 @@ border-style:flat;</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Real-time Data&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="buddy">
-     <cstring>currentDataButton</cstring>
+     <cstring>realtimeDataButton</cstring>
     </property>
    </widget>
    <widget class="QToolButton" name="sysEventButton">
@@ -240,6 +240,35 @@ border-style:flat;</string>
     </property>
     <property name="buddy">
      <cstring>sysEventButton</cstring>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="returnButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>150</y>
+      <width>64</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="returnlabel">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>220</y>
+      <width>54</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Return</string>
     </property>
    </widget>
   </widget>
