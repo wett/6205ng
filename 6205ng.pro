@@ -23,15 +23,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    logindialog.cpp
+SOURCES += src/main.cpp\
+        src/mainwindow.cpp \
+    src/logindialog.cpp \
+    src/dataview/realtimedata.cpp
 
-HEADERS  += mainwindow.h \
-    logindialog.h
+HEADERS  += src/mainwindow.h \
+    src/logindialog.h \
+    src/dataview/realtimedata.h
 
-FORMS    += mainwindow.ui \
-    logindialog.ui
+FORMS    += src/mainwindow.ui \
+    src/logindialog.ui \
+    src/dataview/realtimedata.ui
 
 target.path +=/home/root
 
