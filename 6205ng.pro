@@ -36,3 +36,6 @@ FORMS    += mainwindow.ui \
 target.path +=/home/root
 
 INSTALLS += target
+
+RESOURCES += \
+    resources.qrc

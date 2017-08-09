@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/adCMD.png</file>
+        <file>images/back_gray.png</file>
+        <file>images/background-sunny-very-few-clouds.JPG</file>
+        <file>images/clear_night_sky.jpeg</file>
+        <file>images/dataView.png</file>
+        <file>images/fog.jpg</file>
+        <file>images/modView.png</file>
+        <file>images/mostlycloudy.jpg</file>
+        <file>images/overcast.jpg</file>
+        <file>images/paramSet.png</file>
+        <file>images/rain.jpg</file>
+        <file>images/search.png</file>
+        <file>images/sleet.jpg</file>
+        <file>images/snow.jpg</file>
+        <file>images/sysAbout.png</file>
+        <file>images/sysDebug.png</file>
+        <file>images/sysManage.png</file>
+    </qresource>
+</RCC>
