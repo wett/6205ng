@@ -17,5 +17,5 @@ RealtimeData::~RealtimeData()
 void RealtimeData::on_listWidget_itemClicked(QListWidgetItem *item)
 {
     RealtimeDataItem *realtimeDataItem = new RealtimeDataItem;
-    realtimeDataItem->show();
+    realtimeDataItem->showFullScreen();
 }
