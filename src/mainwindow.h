@@ -4,6 +4,7 @@
 #include <QLabel>
 #include <QMainWindow>
 #include <QTimer>
+#include"src/dataview/realtimedata.h"
 
 namespace Ui {
 class MainWindow;
@@ -25,6 +26,7 @@ private:
 private slots:
     void timeUpdate();
     void on_returnButton_clicked();
+    void on_realtimeDataButton_clicked();
 };
 
 #endif // MAINWINDOW_H

@@ -26,15 +26,18 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += src/main.cpp\
         src/mainwindow.cpp \
     src/logindialog.cpp \
-    src/dataview/realtimedata.cpp
+    src/dataview/realtimedata.cpp \
+    src/dataview/realtimedataitem.cpp
 
 HEADERS  += src/mainwindow.h \
     src/logindialog.h \
-    src/dataview/realtimedata.h
+    src/dataview/realtimedata.h \
+    src/dataview/realtimedataitem.h
 
 FORMS    += src/mainwindow.ui \
     src/logindialog.ui \
-    src/dataview/realtimedata.ui
+    src/dataview/realtimedata.ui \
+    src/dataview/realtimedataitem.ui
 
 target.path +=/home/root
 

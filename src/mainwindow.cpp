@@ -32,3 +32,9 @@ void MainWindow::on_returnButton_clicked()
 {
 
 }
+
+void MainWindow::on_realtimeDataButton_clicked()
+{
+    RealtimeData *realtimedata = new RealtimeData ;
+    realtimedata->show();
+}

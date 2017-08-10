@@ -1,14 +1,21 @@
 #include "realtimedata.h"
 #include "ui_realtimedata.h"
 
-realtimeData::realtimeData(QWidget *parent) :
+RealtimeData::RealtimeData(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::realtimeData)
 {
     ui->setupUi(this);
+    ui->listWidget->addItem("RS485_#1_1    5     000000001");
 }
 
-realtimeData::~realtimeData()
+RealtimeData::~RealtimeData()
 {
     delete ui;
+}
+
+void RealtimeData::on_listWidget_itemClicked(QListWidgetItem *item)
+{
+    RealtimeDataItem *realtimeDataItem = new RealtimeDataItem;
+    realtimeDataItem->show();
 }
